@@ -27,7 +27,7 @@ which upon hearing an incoming UIA deposit -
 with a memo containing a withdrawal address,
 it automatically withdraws the matching foreign chain asset to the client's account.
 
-Both Deposit and Withdrawal functions run concurrently in a single terminal and are built to handle multi client and multi asset concurrency.
+Both Deposit and Withdrawal functions for all gateway assets run concurrently in a single terminal and are built to handle multi client simultaneously.
 
 Currently gateway tokenization of the following coins are supported:
 
@@ -50,5 +50,9 @@ and peer reviewed by BitShares core developer Dr. Christopher Sanborn
 - ecdsa
 - aioxrpy
 
+Be advised, although this gateway has been live tested on chain and peer reviewed, 
+it should be considered beta software and has not yet been deployed live to the public.
 
-WTFPL litepresence.com Jan 2021
+License: www.wtfpl.net 
+
+litepresence Jan 2021
