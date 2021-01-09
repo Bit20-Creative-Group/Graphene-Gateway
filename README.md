@@ -22,9 +22,9 @@ which the client will approach via JSON.
 
 Upon request for a deposit address,
 
-it will trigger EOSIO or Ripple block operation listeners run by the gateway admin.
+it launches an EOSIO or Ripple block operation listener run by the gateway admin.
 
-The listeners will await an incoming transfer of EOS or XRP from the client, until timeout.
+The listener will await an incoming transfer of EOS or XRP from the client, until timeout.
 
 Upon "hearing" the transfer, the BitShares/Graphene side auto issues a respective UIA.
 
