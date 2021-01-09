@@ -26,7 +26,8 @@ The withdrawal side is a 24/7 BitShares/Graphene block operation listener,
 which upon hearing an incoming UIA deposit -
 with a memo containing a withdrawal address,
 it automatically withdraws the matching foreign chain asset to the client's account.
-Both Deposit and Withdrawal are built to handle multi client / multi asset concurrency.
+
+Both Deposit and Withdrawal functions run concurrently in a single terminal and are built to handle multi client and multi asset concurrency.
 
 Currently gateway tokenization of the following coins are supported:
 
