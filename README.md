@@ -27,7 +27,8 @@ which upon hearing an incoming UIA deposit -
 with a memo containing a withdrawal address,
 it automatically withdraws the matching foreign chain asset to the client's account.
 
-Both Deposit and Withdrawal functions for all gateway assets run concurrently in a single terminal and are built to handle multi client simultaneously.
+Both Deposit and Withdrawal functions for all gateway assets run concurrently in a single terminal 
+leveraging python multiprocessing and are thus built to handle multiple clients simultaneously.
 
 Currently gateway tokenization of the following coins are supported:
 
