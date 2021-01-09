@@ -1,5 +1,5 @@
 # Graphene-Python-Gateway
-An Open Source Gateway for Graphene Blockchains
+An Open Source Gateway for BitShares/Graphene Blockchains
 
     ╔══════════════════════════╗
     ║ ╔═╗┬─┐┌─┐┌─┐┬ ┬┌─┐┌┐┌┌─┐ ║
@@ -16,7 +16,7 @@ An Open Source Gateway for Graphene Blockchains
 
 WTFPL litepresence.com Jan 2021
 
-The deposit gateway is a 24/7 Falcon API server,
+The deposit gateway is a 24/7 www.falconframework.org API server,
 
 which the client will approach via JSON.
 
@@ -24,11 +24,11 @@ Upon request for a deposit address,
 
 it will trigger EOSIO or Ripple block operation listeners run by the gateway admin.
 
-The listeners will await an incoming transfer from the client until timeout.
+The listeners will await an incoming transfer of EOS or XRP from the client, until timeout.
 
-Upon "hearing" the transfer, the BitShares side auto issues a respective UIA.
+Upon "hearing" the transfer, the BitShares/Graphene side auto issues a respective UIA.
 
-The withdrawal side is a 24/7 BitShares block operation listener,
+The withdrawal side is a 24/7 BitShares/Graphene block operation listener,
 
 which upon hearing an incoming UIA deposit -
 
@@ -53,7 +53,3 @@ NON STANDARD MODULES WHICH REQUIRE INSTALLATION
 - secp256k1
 - ecdsa
 - aioxrpy
-
-
-
-
