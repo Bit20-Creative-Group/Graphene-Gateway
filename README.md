@@ -22,9 +22,9 @@ which the client will approach via JSON.
 
 Upon request for a deposit address,
 
-it launches an EOSIO or Ripple block operation listener run by the gateway admin.
+it launches an foreign chain block operation listener.
 
-The listener will await an incoming transfer of EOS or XRP from the client, until timeout.
+The listener will await an incoming transfer of foreign chain coins from the client, until timeout.
 
 Upon "hearing" the transfer, the BitShares/Graphene side auto issues a respective UIA.
 
@@ -34,16 +34,21 @@ which upon hearing an incoming UIA deposit -
 
 with a memo containing a withdrawal address,
 
-automatically withdraws the matching foreign chain asset to the client's account.
+it automatically withdraws the matching foreign chain asset to the client's account.
 
 Both Deposit and Withdrawal are built to handle multi client / multi asset concurrency.
 
-This project has been sponsored by www.bitshares.org 
+Currently gateway tokenization of the following coins are supported:
+
+- EOSIO(EOS)
+- Ripple(XRP)
+
+# This project has been sponsored by www.bitshares.org 
 
 and peer reviewed by BitShares core developer Dr. Christopher Sanborn
 
 
-NON STANDARD MODULES WHICH REQUIRE INSTALLATION
+    NON STANDARD MODULES WHICH REQUIRE INSTALLATION
 
 - falcon 
 - pybitshares 
