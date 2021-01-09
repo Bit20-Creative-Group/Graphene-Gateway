@@ -16,7 +16,7 @@ An Open Source Gateway for Graphene Blockchains
 
 WTFPL litepresence.com Jan 2021
 
-The deposit gatewau is a 24/7 Falcon API server,
+The deposit gateway is a 24/7 Falcon API server,
 
 which the client will approach via JSON.
 
