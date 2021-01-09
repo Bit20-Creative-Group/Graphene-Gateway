@@ -40,8 +40,8 @@ Both Deposit and Withdrawal are built to handle multi client / multi asset concu
 
 Currently gateway tokenization of the following coins are supported:
 
-- EOSIO(EOS)
-- Ripple(XRP)
+- EOSIO - EOS
+- Ripple - XRP
 
 # This project has been sponsored by www.bitshares.org 
 
