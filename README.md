@@ -38,7 +38,7 @@ automatically withdraws the matching foreign chain asset to the client's account
 
 Both Deposit and Withdrawal are built to handle multi client / multi asset concurrency.
 
-This project has been sponsored by bitshares.org 
+This project has been sponsored by www.bitshares.org 
 
 and peer reviewed by BitShares core developer Dr. Christopher Sanborn
 
