@@ -1,4 +1,4 @@
-# YieldBot
+# Graphene Gateway
 A feature-rich gateway and savings account for Graphene blockchains.
 
     ╔══════════════════════════╗
@@ -9,8 +9,6 @@ A feature-rich gateway and savings account for Graphene blockchains.
     ║ ║ ╦├─┤ │ ├┤ │││├─┤└┬┘    ║
     ║ ╚═╝┴ ┴ ┴ └─┘└┴┘┴ ┴ ┴     ║
     ╚══════════════════════════╝
-    
-Automatic Marker-Maker (AMM) supply side reward bot. Deposit to a curated list of graphene liquidity pools and increase earnings.
 
 # This project has been sponsored by www.bittwenty.com
 
