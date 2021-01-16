@@ -1,13 +1,10 @@
 # YieldBot
-An Free Gateway and automated portfolio manager for BitShares/Graphene Blockchains.
+A feature-rich gateway and savings account for Graphene blockchains.
 
     ╔══════════════════════════╗
     ║ ╔═╗┬─┐┌─┐┌─┐┬ ┬┌─┐┌┐┌┌─┐ ║
     ║ ║ ╦├┬┘├─┤├─┘├─┤├┤ │││├┤  ║
     ║ ╚═╝┴└─┴ ┴┴  ┴ ┴└─┘┘└┘└─┘ ║
-    ║ ╔═╗┬ ┬┌┬┐┬ ┬┌─┐┌┐┌       ║
-    ║ ╠═╝└┬┘ │ ├─┤│ ││││       ║
-    ║ ╩   ┴  ┴ ┴ ┴└─┘┘└┘       ║
     ║ ╔═╗┌─┐┌┬┐┌─┐┬ ┬┌─┐┬ ┬    ║
     ║ ║ ╦├─┤ │ ├┤ │││├─┤└┬┘    ║
     ║ ╚═╝┴ ┴ ┴ └─┘└┴┘┴ ┴ ┴     ║
@@ -15,11 +12,11 @@ An Free Gateway and automated portfolio manager for BitShares/Graphene Blockchai
     
 Automatic Marker-Maker (AMM) supply side reward bot. Deposit to a curated list of graphene liquidity pools and increase earnings.
 
-BTWTY is a smart contract on the BitShares blockchain representing the nominal value of one Bit20 index asset. To buy and sell the token, you will need an account on the BitShares decentralized exchange (DEX).
-
 # This project has been sponsored by www.bittwenty.com
 
 and peer reviewed by BitShares core developer Dr. Christopher Sanborn
+
+BTWTY is a smart contract on the BitShares blockchain representing the nominal value of one Bit20 index asset. To buy and sell the token, you will need an account on the BitShares decentralized exchange (DEX).
 
     NON STANDARD MODULES WHICH REQUIRE INSTALLATION
 
